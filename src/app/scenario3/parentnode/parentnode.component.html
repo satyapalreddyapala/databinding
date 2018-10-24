@@ -1,0 +1,6 @@
+<p>
+  child works!
+</p>
+<input id="name" type="text" [(ngModel)]="name" />
+<button (click)=onpress()>Why wait click me to see you in console</button> 
+<app-child [nameparent]="name"></app-child>
